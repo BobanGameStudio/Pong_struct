@@ -1,0 +1,9 @@
+Ball speed:8
+Paddle speed:5
+Difficulty level:1
+Gora gracz 1:119
+Dol gracz 1:115
+Gora gracz 2:273
+Dol gracz 2:274
+Pauza:112
+ShowFps:282
