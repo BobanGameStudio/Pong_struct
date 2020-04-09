@@ -7,6 +7,7 @@ from pathlib import Path
 
 pygame.init()
 
+#test test test test
 def quick_sort(list, descending = True):
     """ Quick sort for tuple, if optional argument is "True" then sort is descending, if "False" then ascending """
     if len(list) <= 1: #Jezeli na liscie do posortowania jest tylko jeden element zwroc go
@@ -20,10 +21,8 @@ def quick_sort(list, descending = True):
     
     for nr_elementu, element in enumerate(list):#Przydzielenie elementow do list w zaleznosci od tego czy sa smaller czy bigger od elementu wybranego
         if element < selected_item:
-            #for i in range(0, len(list)):
             smaller.append(list[nr_elementu])
         else:
-            #for i in range(0, len(list)):
             bigger.append(list[nr_elementu])
     
     smaller = quick_sort(smaller, descending)
