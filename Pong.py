@@ -677,7 +677,7 @@ while True:
                     paddle_2_y_pos = 0
                 elif infoObject.current_h - PADDLE_H < paddle_2_y_pos:
                     paddle_2_y_pos = infoObject.current_h - PADDLE_H 
-                    print(paddle_2_y_pos)
+                    #print(paddle_2_y_pos)
 
             if ball_direction_x == True:#Obsluga ruchu pilki
                 ball_x_pos += ball_speed_x
