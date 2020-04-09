@@ -20,10 +20,8 @@ def quick_sort(list, descending = True):
     
     for nr_elementu, element in enumerate(list):#Przydzielenie elementow do list w zaleznosci od tego czy sa smaller czy bigger od elementu wybranego
         if element < selected_item:
-            #for i in range(0, len(list)):
             smaller.append(list[nr_elementu])
         else:
-            #for i in range(0, len(list)):
             bigger.append(list[nr_elementu])
     
     smaller = quick_sort(smaller, descending)
