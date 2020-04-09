@@ -7,6 +7,7 @@ from pathlib import Path
 
 pygame.init()
 
+#test test test test
 def quick_sort(list, descending = True):
     """ Quick sort for tuple, if optional argument is "True" then sort is descending, if "False" then ascending """
     if len(list) <= 1: #Jezeli na liscie do posortowania jest tylko jeden element zwroc go
